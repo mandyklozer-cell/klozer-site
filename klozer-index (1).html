@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Klozer | Fresh trucking leads from FMCSA data</title>
+<meta name="description" content="Klozer turns public FMCSA carrier data into a ranked, searchable lead list with the Klozer Score, a built-in pipeline and team reports, built for trucking sales teams.">
+<meta property="og:title" content="Klozer | Know who to call. Close more fleets.">
+<meta property="og:description" content="Ranked FMCSA carrier leads with the Klozer Score, a pipeline for every rep and reports for your whole team.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://klozer.ca">
+<meta name="theme-color" content="#020617">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233b82f6'/%3E%3Cpath d='M16 40V24h20v16M36 29h8l6 7v4H36' fill='none' stroke='white' stroke-width='4' stroke-linejoin='round'/%3E%3Ccircle cx='24' cy='42' r='4' fill='white'/%3E%3Ccircle cx='44' cy='42' r='4' fill='white'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;family=Manrope:wght@400;500;600;700&amp;family=Inter:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Manrope',system-ui,sans-serif;color:#0B1220;background:#fff;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:'Bricolage Grotesque','Manrope',sans-serif;margin:0}
+p{margin:0}
+.kz-split{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:56px;align-items:center}
+.kz-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}
+.kz-plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px;align-items:stretch}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+.kz-nav{position:sticky;top:0;z-index:50;background:rgba(2,6,23,.82);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08);color:#fff;font-family:'Inter',system-ui,sans-serif}
+.kz-nav-links{display:flex;gap:28px}
+.kz-nav-links a:hover{color:#fff}
+.kz-burger{display:none}
+.kz-mobile a{display:block;padding:11px 0;color:#E2E8F0;font-weight:500}
+.kz-wrap{max-width:1180px;margin:0 auto;padding-left:24px;padding-right:24px;box-sizing:border-box}
+@media(max-width:860px){.kz-nav-links{display:none}.kz-hide-sm{display:none !important}.kz-burger{display:block}}
+summary::-webkit-details-marker{display:none}
+.kz-faq details{border:1px solid #E1E6F0;border-radius:16px;padding:20px 24px;background:#fff;margin-bottom:12px}
+.kz-faq summary{cursor:pointer;font-weight:700;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.kz-faq summary:after{content:"+";font-size:24px;line-height:1;color:#2F6BFF}
+.kz-faq details[open] summary:after{content:"\2212"}
+.kz-faq details p{margin-top:12px;color:#4A5568;font-size:16px;line-height:1.65}
+.kz-btn:hover{filter:brightness(1.08)}
+</style>
+</head>
+<body>
+<div style="background:#fff;color:#0B1220">
+
+<!-- NAV -->
+<div class="kz-nav">
+<div class="kz-wrap" style="display:flex;align-items:center;justify-content:space-between;height:66px;gap:16px">
+<a href="#top" aria-label="Klozer home" style="display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:-0.02em">
+<span style="width:34px;height:34px;border-radius:10px;background:#3B82F6;display:grid;place-items:center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg></span>
+<span>KLO<span style="color:#60A5FA">ZER</span></span></a>
+<div class="kz-nav-links" style="font-size:14px;font-weight:500;color:#CBD5E1">
+<a href="#features">Features</a><a href="#how">How it works</a><a href="#who">Who it's for</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></div>
+<div style="display:flex;gap:10px;align-items:center">
+<a class="kz-hide-sm" href="https://app.klozer.ca/login" style="padding:11px 20px;border-radius:12px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06);font-weight:600;font-size:14px;color:#fff">Log in</a>
+<a class="kz-btn" href="#access" style="padding:11px 20px;border-radius:12px;background:#3B82F6;box-shadow:0 8px 24px rgba(59,130,246,.35);font-weight:600;font-size:14px;color:#fff">Request access</a>
+<details class="kz-burger" style="position:relative"><summary aria-label="Menu" style="list-style:none;cursor:pointer;color:#fff;padding:6px;display:flex"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></summary><div class="kz-mobile" style="position:absolute;right:0;top:46px;width:220px;background:#020617;border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:8px 18px"><a href="#features">Features</a><a href="#how">How it works</a><a href="#who">Who it's for</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="https://app.klozer.ca/login">Log in</a></div></details>
+</div>
+</div>
+</div>
+
+<!-- HERO -->
+<div id="top" style="background:linear-gradient(135deg,#020617,#0F172A 55%,#172554);color:#fff;padding:72px 0 96px;position:relative;overflow:hidden">
+<div style="position:absolute;right:-140px;top:-160px;width:520px;height:520px;border-radius:50%;background:rgba(59,130,246,.32);filter:blur(100px)"></div>
+<div style="position:absolute;left:28%;bottom:-180px;width:460px;height:340px;border-radius:50%;background:rgba(16,185,129,.12);filter:blur(100px)"></div>
+<div class="kz-wrap" style="position:relative;z-index:1">
+<div class="kz-split">
+<div>
+<div style="display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,0.2);border-radius:99px;padding:7px 14px;font-size:14px;font-weight:600;color:#BFD2FF"><span style="width:8px;height:8px;border-radius:50%;background:#19C37D"></span>Now onboarding early customers</div>
+<h1 style="font-size:68px;line-height:1.02;letter-spacing:-0.035em;font-weight:800;margin-top:24px">Know who to call.<br><span style="color:#7FA6FF">Close more fleets.</span></h1>
+<p style="font-size:20px;line-height:1.55;color:#C5CEE0;margin-top:22px;max-width:540px">Klozer turns public FMCSA carrier data into a ranked lead list. Every carrier gets a Klozer Score, every rep gets a pipeline, and every owner sees what the team is working on.</p>
+<div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:34px">
+<a class="kz-btn" href="#access" style="padding:16px 28px;border-radius:14px;background:#2F6BFF;font-weight:700;font-size:17px;color:#fff">Request access</a>
+<a class="kz-btn" href="#score" style="padding:16px 28px;border-radius:14px;border:1px solid rgba(255,255,255,0.28);font-weight:700;font-size:17px;color:#fff">See the Klozer Score</a>
+</div>
+<p style="margin-top:18px;font-size:14px;color:#8EA0C0">Built on the public FMCSA Company Census. Not affiliated with the FMCSA.</p>
+</div>
+
+<!-- hero product mock -->
+<div style="background:#fff;color:#0B1220;border-radius:22px;padding:20px;box-shadow:0 30px 80px rgba(0,0,0,0.45)" aria-label="Sample view of the Klozer lead list">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+<span style="font-weight:800;font-size:16px">New carriers in your territory</span>
+<span style="font-size:12px;font-weight:700;background:#EEF2FA;color:#4A5568;padding:4px 10px;border-radius:99px">Sample data</span>
+</div>
+<div style="display:grid;gap:10px">
+<div style="display:grid;grid-template-columns:1fr auto auto;gap:14px;align-items:center;border:1px solid #E1E6F0;border-radius:14px;padding:12px 14px">
+<div><div style="font-weight:700;font-size:15px">Prairie Line Transport</div><div style="font-size:13px;color:#5B6678">Calgary, AB · 12 power units</div></div>
+<span style="font-size:12px;font-weight:700;background:#DDF7EA;color:#0B6B43;padding:4px 10px;border-radius:99px">New</span>
+<span style="width:44px;height:44px;border-radius:50%;border:4px solid #19C37D;display:grid;place-items:center;font-weight:800;font-size:15px">87</span>
+</div>
+<div style="display:grid;grid-template-columns:1fr auto auto;gap:14px;align-items:center;border:1px solid #E1E6F0;border-radius:14px;padding:12px 14px">
+<div><div style="font-weight:700;font-size:15px">Summit Haul Co.</div><div style="font-size:13px;color:#5B6678">Tulsa, OK · 21 power units</div></div>
+<span style="font-size:12px;font-weight:700;background:#FFF1D1;color:#8A5300;padding:4px 10px;border-radius:99px">In progress</span>
+<span style="width:44px;height:44px;border-radius:50%;border:4px solid #19C37D;display:grid;place-items:center;font-weight:800;font-size:15px">81</span>
+</div>
+<div style="display:grid;grid-template-columns:1fr auto auto;gap:14px;align-items:center;border:1px solid #E1E6F0;border-radius:14px;padding:12px 14px">
+<div><div style="font-weight:700;font-size:15px">Redline Freight LLC</div><div style="font-size:13px;color:#5B6678">Dallas, TX · 8 power units</div></div>
+<span style="font-size:12px;font-weight:700;background:#E3ECFF;color:#1B47B8;padding:4px 10px;border-radius:99px">Contacted</span>
+<span style="width:44px;height:44px;border-radius:50%;border:4px solid #F2B233;display:grid;place-items:center;font-weight:800;font-size:15px">64</span>
+</div>
+<div style="display:grid;grid-template-columns:1fr auto auto;gap:14px;align-items:center;border:1px solid #E1E6F0;border-radius:14px;padding:12px 14px">
+<div><div style="font-weight:700;font-size:15px">Northern Axle Carriers</div><div style="font-size:13px;color:#5B6678">Red Deer, AB · 5 power units</div></div>
+<span style="font-size:12px;font-weight:700;background:#EEF2FA;color:#4A5568;padding:4px 10px;border-radius:99px">Saved</span>
+<span style="width:44px;height:44px;border-radius:50%;border:4px solid #F2B233;display:grid;place-items:center;font-weight:800;font-size:15px">58</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- KLOZER SCORE -->
+<div id="score" style="background:#F5F7FB;padding:104px 0">
+<div class="kz-wrap">
+<div class="kz-split">
+<div>
+<div style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;font-weight:800;color:#2F6BFF">Klozer Score</div>
+<h2 style="font-size:46px;line-height:1.08;letter-spacing:-0.03em;font-weight:800;margin-top:12px">Every carrier, ranked before you pick up the phone</h2>
+<p style="font-size:18px;line-height:1.65;color:#4A5568;margin-top:18px">A flat carrier list makes every company look the same. The Klozer Score gives each one a rating from 1 to 100 so the best prospects sit at the top of your list.</p>
+<div style="display:grid;gap:14px;margin-top:28px">
+<div style="display:flex;gap:14px;align-items:flex-start"><span style="flex:none;width:28px;height:28px;border-radius:50%;background:#DDF7EA;color:#0B6B43;display:grid;place-items:center;font-weight:800">1</span><div><b style="font-size:17px">Fleet size</b><div style="color:#5B6678;font-size:15px;margin-top:2px">Carriers with a real fleet score higher than one-truck authorities.</div></div></div>
+<div style="display:flex;gap:14px;align-items:flex-start"><span style="flex:none;width:28px;height:28px;border-radius:50%;background:#DDF7EA;color:#0B6B43;display:grid;place-items:center;font-weight:800">2</span><div><b style="font-size:17px">Freshness</b><div style="color:#5B6678;font-size:15px;margin-top:2px">Newly registered carriers rise first, while they are still choosing vendors.</div></div></div>
+<div style="display:flex;gap:14px;align-items:flex-start"><span style="flex:none;width:28px;height:28px;border-radius:50%;background:#DDF7EA;color:#0B6B43;display:grid;place-items:center;font-weight:800">3</span><div><b style="font-size:17px">Contact completeness</b><div style="color:#5B6678;font-size:15px;margin-top:2px">Leads you can actually reach outrank the ones with missing details.</div></div></div>
+</div>
+<p style="margin-top:26px;font-weight:700;font-size:16px">Included on every plan, for every user on your team.</p>
+</div>
+
+<div style="background:#fff;border:1px solid #E1E6F0;border-radius:24px;padding:32px;box-shadow:0 18px 50px rgba(11,18,32,0.08)" aria-label="Sample Klozer Score breakdown">
+<div style="display:flex;align-items:center;gap:22px">
+<span style="flex:none;width:104px;height:104px;border-radius:50%;border:10px solid #19C37D;display:grid;place-items:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:38px;letter-spacing:-0.03em">87</span>
+<div><div style="font-weight:800;font-size:22px;font-family:'Bricolage Grotesque',sans-serif">Prairie Line Transport</div><div style="color:#5B6678;font-size:15px;margin-top:4px">Calgary, AB · 12 power units</div><span style="display:inline-block;margin-top:10px;font-size:12px;font-weight:700;background:#DDF7EA;color:#0B6B43;padding:4px 10px;border-radius:99px">Call first</span></div>
+</div>
+<div style="display:grid;gap:18px;margin-top:30px">
+<div><div style="display:flex;justify-content:space-between;font-size:14px;font-weight:700"><span>Fleet size</span><span>High</span></div><div style="height:10px;border-radius:99px;background:#EEF2FA;margin-top:8px"><div style="height:10px;width:82%;border-radius:99px;background:#2F6BFF"></div></div></div>
+<div><div style="display:flex;justify-content:space-between;font-size:14px;font-weight:700"><span>Freshness</span><span>Very high</span></div><div style="height:10px;border-radius:99px;background:#EEF2FA;margin-top:8px"><div style="height:10px;width:94%;border-radius:99px;background:#2F6BFF"></div></div></div>
+<div><div style="display:flex;justify-content:space-between;font-size:14px;font-weight:700"><span>Contact completeness</span><span>Medium</span></div><div style="height:10px;border-radius:99px;background:#EEF2FA;margin-top:8px"><div style="height:10px;width:62%;border-radius:99px;background:#2F6BFF"></div></div></div>
+</div>
+<p style="margin-top:22px;font-size:13px;color:#5B6678">Illustrative sample. Real scores are calculated for each carrier in your list.</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- TEAMS -->
+<div id="team" style="background:#0B1220;color:#fff;padding:104px 0">
+<div class="kz-wrap">
+<div style="max-width:720px">
+<div style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;font-weight:800;color:#7FA6FF">Built for teams</div>
+<h2 style="font-size:46px;line-height:1.08;letter-spacing:-0.03em;font-weight:800;margin-top:12px">See exactly what your team is working on</h2>
+<p style="font-size:18px;line-height:1.65;color:#C5CEE0;margin-top:18px">Add your salespeople, give each one a territory and let them work their own pipeline. As the owner you get one Reports page that shows the whole picture.</p>
+</div>
+
+<div class="kz-cards" style="margin-top:44px">
+<div style="background:#121C33;border:1px solid #22304F;border-radius:20px;padding:28px">
+<div style="width:44px;height:44px;border-radius:12px;background:#1B2B52;display:grid;place-items:center;margin-bottom:18px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7FA6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20c.6-3.4 3.2-5.5 6.5-5.5s5.9 2.1 6.5 5.5"></path><path d="M16 5a3.5 3.5 0 0 1 0 7M18 14.8c2 .6 3.2 2.4 3.5 5.2"></path></svg></div>
+<h3 style="font-size:21px;font-weight:700">Owners, sub admins and members</h3>
+<p style="color:#B3BFD6;font-size:16px;line-height:1.6;margin-top:8px">Invite your team from one screen. Each person gets a branded welcome email and signs in with a one-time code.</p></div>
+<div style="background:#121C33;border:1px solid #22304F;border-radius:20px;padding:28px">
+<div style="width:44px;height:44px;border-radius:12px;background:#1B2B52;display:grid;place-items:center;margin-bottom:18px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7FA6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg></div>
+<h3 style="font-size:21px;font-weight:700">Territories per rep</h3>
+<p style="color:#B3BFD6;font-size:16px;line-height:1.6;margin-top:8px">Assign states or provinces to each salesperson so nobody calls the same carrier twice.</p></div>
+<div style="background:#121C33;border:1px solid #22304F;border-radius:20px;padding:28px">
+<div style="width:44px;height:44px;border-radius:12px;background:#1B2B52;display:grid;place-items:center;margin-bottom:18px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7FA6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="5" height="16" rx="1"></rect><rect x="10" y="4" width="5" height="10" rx="1"></rect><rect x="17" y="4" width="4" height="6" rx="1"></rect></svg></div>
+<h3 style="font-size:21px;font-weight:700">A pipeline for every rep</h3>
+<p style="color:#B3BFD6;font-size:16px;line-height:1.6;margin-top:8px">Each person moves leads through New, Contacted, In Progress and Closed, and can see what teammates are doing.</p></div>
+</div>
+
+<!-- Reports mock -->
+<div style="background:#fff;color:#0B1220;border-radius:24px;padding:30px;margin-top:44px;box-shadow:0 30px 80px rgba(0,0,0,0.4)" aria-label="Sample Klozer Reports page">
+<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+<span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:24px">Team reports</span>
+<span style="font-size:12px;font-weight:700;background:#EEF2FA;color:#4A5568;padding:4px 10px;border-radius:99px">Sample data · last 7 days</span>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:14px;margin-top:22px">
+<div style="background:#F5F7FB;border-radius:14px;padding:16px 18px"><div style="font-size:13px;color:#5B6678;font-weight:600">Outreach this week</div><div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:34px;margin-top:4px">142</div></div>
+<div style="background:#F5F7FB;border-radius:14px;padding:16px 18px"><div style="font-size:13px;color:#5B6678;font-weight:600">In progress</div><div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:34px;margin-top:4px">34</div></div>
+<div style="background:#F5F7FB;border-radius:14px;padding:16px 18px"><div style="font-size:13px;color:#5B6678;font-weight:600">Closed deals</div><div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:34px;margin-top:4px">9</div></div>
+<div style="background:#F5F7FB;border-radius:14px;padding:16px 18px"><div style="font-size:13px;color:#5B6678;font-weight:600">Stale leads (7+ days)</div><div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:34px;margin-top:4px">17</div></div>
+</div>
+<div style="margin-top:22px;border:1px solid #E1E6F0;border-radius:14px;overflow-x:auto">
+<table style="width:100%;border-collapse:collapse;font-size:15px;min-width:520px">
+<thead><tr style="background:#F5F7FB;text-align:left;color:#5B6678;font-size:13px"><th style="padding:12px 16px;font-weight:700">Rep</th><th style="padding:12px 16px;font-weight:700">Territory</th><th style="padding:12px 16px;font-weight:700">Outreach</th><th style="padding:12px 16px;font-weight:700">In progress</th><th style="padding:12px 16px;font-weight:700">Closed</th></tr></thead>
+<tbody>
+<tr style="border-top:1px solid #E1E6F0"><td style="padding:12px 16px;font-weight:700">Rep A</td><td style="padding:12px 16px">AB, SK</td><td style="padding:12px 16px">58</td><td style="padding:12px 16px">14</td><td style="padding:12px 16px">5</td></tr>
+<tr style="border-top:1px solid #E1E6F0"><td style="padding:12px 16px;font-weight:700">Rep B</td><td style="padding:12px 16px">TX, OK</td><td style="padding:12px 16px">49</td><td style="padding:12px 16px">12</td><td style="padding:12px 16px">3</td></tr>
+<tr style="border-top:1px solid #E1E6F0"><td style="padding:12px 16px;font-weight:700">Rep C</td><td style="padding:12px 16px">ON</td><td style="padding:12px 16px">35</td><td style="padding:12px 16px">8</td><td style="padding:12px 16px">1</td></tr>
+</tbody></table></div>
+<p style="margin-top:16px;font-size:13px;color:#5B6678">Illustrative sample. Reports covers your team pipeline, closed deals, weekly outreach, territory focus and notes.</p>
+</div>
+</div>
+</div>
+
+<!-- FEATURES -->
+<div id="features" style="background:#fff;padding:104px 0">
+<div class="kz-wrap">
+<div style="max-width:720px">
+<div style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;font-weight:800;color:#2F6BFF">Features</div>
+<h2 style="font-size:46px;line-height:1.08;letter-spacing:-0.03em;font-weight:800;margin-top:12px">Everything you need to work a carrier list</h2>
+<p style="font-size:18px;line-height:1.65;color:#4A5568;margin-top:18px">Search, qualify, follow up and close, all in one place.</p>
+</div>
+<div class="kz-cards" style="margin-top:44px">
+<div style="border:1px solid #E1E6F0;border-radius:20px;padding:28px"><div style="width:44px;height:44px;border-radius:12px;background:#E3ECFF;display:grid;place-items:center;margin-bottom:16px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1B47B8" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg></div><h3 style="font-size:20px;font-weight:700">Carrier search</h3><p style="color:#4A5568;font-size:16px;line-height:1.6;margin-top:8px">Find carriers by name, DOT number, state or fleet size across a large FMCSA-sourced database.</p></div>
+<div style="border:1px solid #E1E6F0;border-radius:20px;padding:28px"><div style="width:44px;height:44px;border-radius:12px;background:#E3ECFF;display:grid;place-items:center;margin-bottom:16px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1B47B8" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4" width="5" height="16" rx="1"></rect><rect x="10" y="4" width="5" height="10" rx="1"></rect><rect x="17" y="4" width="4" height="6" rx="1"></rect></svg></div><h3 style="font-size:20px;font-weight:700">My Pipeline</h3><p style="color:#4A5568;font-size:16px;line-height:1.6;margin-top:8px">Move leads from New to Contacted, In Progress and Closed. Always know who to call next.</p></div>
+<div style="border:1px solid #E1E6F0;border-radius:20px;padding:28px"><div style="width:44px;height:44px;border-radius:12px;background:#E3ECFF;display:grid;place-items:center;margin-bottom:16px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1B47B8" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"></path></svg></div><h3 style="font-size:20px;font-weight:700">Saved leads and notes</h3><p style="color:#4A5568;font-size:16px;line-height:1.6;margin-top:8px">Bookmark the carriers that fit and log a note after every call, so the whole team stays aligned.</p></div>
+<div style="border:1px solid #E1E6F0;border-radius:20px;padding:28px"><div style="width:44px;height:44px;border-radius:12px;background:#E3ECFF;display:grid;place-items:center;margin-bottom:16px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1B47B8" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 3v18h18"></path><path d="m7 15 4-4 3 3 5-6"></path></svg></div><h3 style="font-size:20px;font-weight:700">Team reports</h3><p style="color:#4A5568;font-size:16px;line-height:1.6;margin-top:8px">Owners see outreach, closed deals, stale leads and territory focus for the whole team in one view.</p></div>
+<div style="border:1px solid #E1E6F0;border-radius:20px;padding:28px"><div style="width:44px;height:44px;border-radius:12px;background:#E3ECFF;display:grid;place-items:center;margin-bottom:16px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1B47B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg></div><h3 style="font-size:20px;font-weight:700">Invite-only access</h3><p style="color:#4A5568;font-size:16px;line-height:1.6;margin-top:8px">Every account is approved by us and every team member is invited by their owner. No strangers in your workspace.</p></div>
+<div style="border:1px solid #E1E6F0;border-radius:20px;padding:28px"><div style="width:44px;height:44px;border-radius:12px;background:#E3ECFF;display:grid;place-items:center;margin-bottom:16px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1B47B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"></path><path d="M21 3v5h-5"></path></svg></div><h3 style="font-size:20px;font-weight:700">Monthly data refresh</h3><p style="color:#4A5568;font-size:16px;line-height:1.6;margin-top:8px">New FMCSA records are added every month, with duplicates removed so your list stays clean.</p></div>
+</div>
+</div>
+</div>
+
+<!-- HOW -->
+<div id="how" style="background:#F5F7FB;padding:104px 0">
+<div class="kz-wrap">
+<div style="text-align:center;max-width:720px;margin:0 auto">
+<div style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;font-weight:800;color:#2F6BFF">How it works</div>
+<h2 style="font-size:46px;line-height:1.08;letter-spacing:-0.03em;font-weight:800;margin-top:12px">From public data to your first call</h2>
+</div>
+<div class="kz-cards" style="margin-top:44px">
+<div style="background:#fff;border:1px solid #E1E6F0;border-radius:20px;padding:28px"><span style="width:36px;height:36px;border-radius:50%;background:#0B1220;color:#fff;display:grid;place-items:center;font-weight:800;margin-bottom:16px">1</span><h3 style="font-size:20px;font-weight:700">We load and score the data</h3><p style="color:#4A5568;font-size:16px;line-height:1.6;margin-top:8px">We take the public FMCSA census, clean it, remove duplicates and give every carrier a Klozer Score.</p></div>
+<div style="background:#fff;border:1px solid #E1E6F0;border-radius:20px;padding:28px"><span style="width:36px;height:36px;border-radius:50%;background:#0B1220;color:#fff;display:grid;place-items:center;font-weight:800;margin-bottom:16px">2</span><h3 style="font-size:20px;font-weight:700">Your team saves the best leads</h3><p style="color:#4A5568;font-size:16px;line-height:1.6;margin-top:8px">Filter by territory and fleet size, then save the high scorers to your own pipeline.</p></div>
+<div style="background:#fff;border:1px solid #E1E6F0;border-radius:20px;padding:28px"><span style="width:36px;height:36px;border-radius:50%;background:#0B1220;color:#fff;display:grid;place-items:center;font-weight:800;margin-bottom:16px">3</span><h3 style="font-size:20px;font-weight:700">You work it and watch it</h3><p style="color:#4A5568;font-size:16px;line-height:1.6;margin-top:8px">Log notes, move stages, and see the whole team's progress on the Reports page.</p></div>
+</div>
+</div>
+</div>
+
+<!-- WHO -->
+<div id="who" style="background:#fff;padding:104px 0">
+<div class="kz-wrap">
+<div style="max-width:720px">
+<div style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;font-weight:800;color:#2F6BFF">Who it's for</div>
+<h2 style="font-size:46px;line-height:1.08;letter-spacing:-0.03em;font-weight:800;margin-top:12px">If you sell to carriers, Klozer is for you</h2>
+</div>
+<div class="kz-cards" style="margin-top:40px">
+<div style="border:1px solid #E1E6F0;border-radius:18px;padding:22px"><b style="font-size:18px">Commercial truck insurance</b><div style="color:#4A5568;font-size:15.5px;margin-top:6px;line-height:1.55">New carriers need coverage before their first load.</div></div>
+<div style="border:1px solid #E1E6F0;border-radius:18px;padding:22px"><b style="font-size:18px">Freight factoring</b><div style="color:#4A5568;font-size:15.5px;margin-top:6px;line-height:1.55">Growing fleets want cash flow, not 30-day waits.</div></div>
+<div style="border:1px solid #E1E6F0;border-radius:18px;padding:22px"><b style="font-size:18px">ELD and fleet software</b><div style="color:#4A5568;font-size:15.5px;margin-top:6px;line-height:1.55">Compliance creates urgency for new fleets.</div></div>
+<div style="border:1px solid #E1E6F0;border-radius:18px;padding:22px"><b style="font-size:18px">Dispatch services</b><div style="color:#4A5568;font-size:15.5px;margin-top:6px;line-height:1.55">Owner-operators with new authority need loads now.</div></div>
+<div style="border:1px solid #E1E6F0;border-radius:18px;padding:22px"><b style="font-size:18px">Equipment finance</b><div style="color:#4A5568;font-size:15.5px;margin-top:6px;line-height:1.55">Trucks, trailers and working capital for new entrants.</div></div>
+<div style="border:1px solid #E1E6F0;border-radius:18px;padding:22px"><b style="font-size:18px">Load boards and brokers</b><div style="color:#4A5568;font-size:15.5px;margin-top:6px;line-height:1.55">Recruit active carriers the moment they launch.</div></div>
+</div>
+</div>
+</div>
+
+<!-- EMAIL -->
+<div style="background:#F5F7FB;padding:104px 0">
+<div class="kz-wrap">
+<div class="kz-split">
+<div>
+<div style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;font-weight:800;color:#2F6BFF">Onboarding</div>
+<h2 style="font-size:46px;line-height:1.08;letter-spacing:-0.03em;font-weight:800;margin-top:12px">A welcome that feels like Klozer from the first minute</h2>
+<p style="font-size:18px;line-height:1.65;color:#4A5568;margin-top:18px">When you join, or when an owner adds a salesperson, they get a branded welcome email with a sign-in button and three simple first steps. No passwords to set up, just a one-time code each time they sign in.</p>
+</div>
+<div style="background:#E9EDF5;border-radius:24px;padding:28px" aria-label="Sample welcome email">
+<div style="background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(11,18,32,0.1);max-width:460px;margin:0 auto">
+<div style="background:#1B47B8;color:#fff;padding:28px">
+<div style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;opacity:0.85;font-weight:700">Welcome to Klozer</div>
+<div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:25px;line-height:1.2;margin-top:8px">Congrats! You've taken the first step to winning more fleet clients.</div>
+</div>
+<div style="padding:24px 28px;font-size:15px;line-height:1.6;color:#334155">
+<p>Your Klozer workspace is set up and ready.</p>
+<div style="display:inline-block;margin:16px 0;background:#2F6BFF;color:#fff;font-weight:700;padding:12px 24px;border-radius:99px">Sign in to Klozer</div>
+<div style="background:#F1F5F9;border-radius:12px;padding:14px 16px;font-size:14px"><b>Your first 3 steps</b><br>1. Sign in with your email<br>2. Add your salespeople<br>3. Save your best prospects</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- PRICING -->
+<div id="pricing" style="background:#fff;padding:104px 0">
+<div class="kz-wrap">
+<div style="text-align:center;max-width:720px;margin:0 auto">
+<div style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;font-weight:800;color:#2F6BFF">Pricing</div>
+<h2 style="font-size:46px;line-height:1.08;letter-spacing:-0.03em;font-weight:800;margin-top:12px">Start small. Add seats as your team grows.</h2>
+<p style="font-size:18px;line-height:1.65;color:#4A5568;margin-top:18px">Early-access pricing for our first customers. Klozer Score is included on every plan.</p>
+</div>
+<div class="kz-plans" style="margin-top:48px">
+<div style="border:1px solid #E1E6F0;border-radius:24px;padding:32px;display:flex;flex-direction:column">
+<div style="font-size:14px;letter-spacing:0.12em;text-transform:uppercase;font-weight:800;color:#5B6678">Starter</div>
+<div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:54px;letter-spacing:-0.04em;margin-top:10px">$97<span style="font-size:17px;font-weight:600;color:#5B6678;letter-spacing:0"> / month</span></div>
+<div style="color:#5B6678;font-size:15px;margin-top:2px">1 seat</div>
+<div style="display:grid;gap:12px;margin:24px 0 28px;font-size:16px;color:#334155;flex-grow:1">
+<div>✓&nbsp; Carrier search and filters</div><div>✓&nbsp; Klozer Score on every lead</div><div>✓&nbsp; Saved leads and notes</div><div>✓&nbsp; My Pipeline</div><div>✓&nbsp; Email support</div></div>
+<a class="kz-btn" href="https://buy.stripe.com/cNi7sE4UO54S25p2PU8g002" style="text-align:center;padding:15px;border-radius:14px;border:1px solid #C9D2E3;font-weight:700;font-size:16px">Get Starter</a>
+</div>
+<div style="background:#0B1220;color:#fff;border-radius:24px;padding:32px;display:flex;flex-direction:column;position:relative;box-shadow:0 26px 60px rgba(27,71,184,0.3)">
+<div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:#19C37D;color:#032B1B;font-size:12px;font-weight:800;border-radius:99px;padding:5px 16px;white-space:nowrap">Most popular</div>
+<div style="font-size:14px;letter-spacing:0.12em;text-transform:uppercase;font-weight:800;color:#7FA6FF">Growth</div>
+<div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:54px;letter-spacing:-0.04em;margin-top:10px">$297<span style="font-size:17px;font-weight:600;color:#8EA0C0;letter-spacing:0"> / month</span></div>
+<div style="color:#8EA0C0;font-size:15px;margin-top:2px">Up to 3 seats</div>
+<div style="display:grid;gap:12px;margin:24px 0 28px;font-size:16px;color:#D5DCEB;flex-grow:1">
+<div>✓&nbsp; Everything in Starter</div><div>✓&nbsp; Team workspace and roles</div><div>✓&nbsp; Territory per salesperson</div><div>✓&nbsp; Team Reports</div><div>✓&nbsp; Priority support</div></div>
+<a class="kz-btn" href="https://buy.stripe.com/7sYcMY9b48h4dO79ei8g001" style="text-align:center;padding:15px;border-radius:14px;background:#2F6BFF;color:#fff;font-weight:700;font-size:16px">Get Growth</a>
+</div>
+<div style="border:1px solid #E1E6F0;border-radius:24px;padding:32px;display:flex;flex-direction:column">
+<div style="font-size:14px;letter-spacing:0.12em;text-transform:uppercase;font-weight:800;color:#5B6678">Enterprise</div>
+<div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:54px;letter-spacing:-0.04em;margin-top:10px">$597<span style="font-size:17px;font-weight:600;color:#5B6678;letter-spacing:0"> / month</span></div>
+<div style="color:#5B6678;font-size:15px;margin-top:2px">Up to 10 seats</div>
+<div style="display:grid;gap:12px;margin:24px 0 28px;font-size:16px;color:#334155;flex-grow:1">
+<div>✓&nbsp; Everything in Growth</div><div>✓&nbsp; Custom data uploads</div><div>✓&nbsp; Dedicated onboarding</div><div>✓&nbsp; Custom requests</div></div>
+<a class="kz-btn" href="https://buy.stripe.com/bJebIU3QK54S9xR8ae8g000" style="text-align:center;padding:15px;border-radius:14px;border:1px solid #C9D2E3;font-weight:700;font-size:16px">Get Enterprise</a>
+</div>
+</div>
+<p style="text-align:center;margin-top:24px;font-size:15px;color:#5B6678">After you subscribe we approve your account personally, usually within one business day, then send your invite. Not sure which plan fits? Email <a href="mailto:support@klozer.ca" style="color:#1B47B8;font-weight:700">support@klozer.ca</a></p>
+</div>
+</div>
+
+<!-- FAQ -->
+<div id="faq" style="background:#F5F7FB;padding:104px 0">
+<div class="kz-wrap" style="max-width:820px">
+<div style="text-align:center">
+<div style="font-size:13px;letter-spacing:0.16em;text-transform:uppercase;font-weight:800;color:#2F6BFF">FAQ</div>
+<h2 style="font-size:46px;line-height:1.08;letter-spacing:-0.03em;font-weight:800;margin-top:12px">Good questions</h2>
+</div>
+<div class="kz-faq" style="margin-top:40px">
+<details open=""><summary>What is the Klozer Score?</summary><p>A rating from 1 to 100 for every carrier, based on fleet size, how recently the carrier registered and how complete its contact details are. A higher score means a better prospect to call first. It is included on every plan.</p></details>
+<details><summary>How current are the contact details?</summary><p>Contact details come from public filings and may not always be up to date. We recommend verifying before outreach.</p></details>
+<details><summary>How do I get access?</summary><p>Subscribe to a plan or send us a request. We review each account personally, usually within one business day, and then email you a welcome message with your sign-in link. Klozer is invite-only, so there is no public sign-up.</p></details>
+<details><summary>How does my team sign in and what can they see?</summary><p>As the account owner you add each salesperson from the Team page. They get their own pipeline and territory, can see what teammates are working on, and sign in with a one-time code sent to their email. Only owners see the Reports page.</p></details>
+<details><summary>How many people can use one plan?</summary><p>Starter includes 1 seat, Growth up to 3 and Enterprise up to 10. Need more? Email us and we will tailor a plan.</p></details>
+</div>
+</div>
+</div>
+
+<!-- ACCESS CTA -->
+<div id="access" style="background:#F5F7FB;padding:0 0 96px">
+<div class="kz-wrap">
+<div style="background:#0B1220;color:#fff;border-radius:30px;padding:72px 28px;text-align:center">
+<h2 style="font-size:44px;line-height:1.1;letter-spacing:-0.03em;font-weight:800">Ready to find your next client?</h2>
+<p style="font-size:18px;line-height:1.6;color:#C5CEE0;max-width:540px;margin:14px auto 0">Request access and we will set up your workspace. Already have an account? Log in.</p>
+<div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:30px">
+<a class="kz-btn" href="mailto:support@klozer.ca?subject=Klozer%20access%20request" style="padding:16px 30px;border-radius:14px;background:#2F6BFF;color:#fff;font-weight:700;font-size:17px">Request access</a>
+<a class="kz-btn" href="https://app.klozer.ca/login" style="padding:16px 30px;border-radius:14px;border:1px solid rgba(255,255,255,0.28);color:#fff;font-weight:700;font-size:17px">Log in</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div style="background:#fff;border-top:1px solid #E1E6F0;padding:36px 0;color:#5B6678;font-size:14px">
+<div class="kz-wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px">
+<span>© 2026 Klozer. All rights reserved. Klozer is not affiliated with the FMCSA.</span>
+<span><a href="mailto:support@klozer.ca" style="font-weight:700">support@klozer.ca</a> &nbsp;·&nbsp; <a href="https://app.klozer.ca/login" style="font-weight:700">Log in</a></span>
+</div>
+</div>
+
+</div>
+</body>
+</html>
